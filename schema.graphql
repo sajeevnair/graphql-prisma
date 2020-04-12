@@ -1,0 +1,20 @@
+#  Construct a schema, using GraphQL schema language
+
+type Query {
+  info: String!
+  feed: [Link!]!
+  link(id:ID!):Link
+}
+
+
+type Link {
+  id: ID!
+  description: String!
+  url: String!
+}
+
+type Mutation {
+  post(url: String!, description: String!): Link
+  deleteLink(id:ID!):Link
+  updateLink(id:ID!, url:String, description:String): Link
+}
