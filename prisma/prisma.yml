@@ -1,0 +1,11 @@
+# HTTP ENDPOINT
+endpoint: ''
+
+# Datamodel
+datamodel: datamodel.prisma
+
+# Generated clinet
+generate:
+  - generator: javascript-client
+    output: ../generated/prisma-client
+

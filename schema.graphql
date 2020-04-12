@@ -7,12 +7,6 @@ type Query {
 }
 
 
-type Link {
-  id: ID!
-  description: String!
-  url: String!
-}
-
 type Mutation {
   post(url: String!, description: String!): Link
   deleteLink(id:ID!):Link
