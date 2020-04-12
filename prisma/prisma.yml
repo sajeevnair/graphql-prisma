@@ -1,5 +1,6 @@
 # HTTP ENDPOINT
-endpoint: ''
+#endpoint: ''endpoint: http://localhost:4466
+
 
 # Datamodel
 datamodel: datamodel.prisma
