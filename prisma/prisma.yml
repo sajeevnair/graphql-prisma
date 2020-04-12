@@ -1,9 +1,10 @@
 # HTTP ENDPOINT
-#endpoint: ''endpoint: http://localhost:4466
+#endpoint: ''endpoint: https://eu1.prisma.sh/sajeev-nair-db6fac/graphql-prisma/dev
+
 
 
 # Datamodel
-datamodel: datamodel.prisma
+datamodel: ./datamodel.prisma
 
 # Generated clinet
 generate:

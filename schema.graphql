@@ -1,5 +1,9 @@
 #  Construct a schema, using GraphQL schema language
-
+type Link {
+  id: ID!
+  description: String!
+  url: String
+}
 type Query {
   info: String!
   feed: [Link!]!
